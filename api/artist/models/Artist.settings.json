@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "artist",
+  "collectionName": "artists",
   "info": {
     "name": "artist",
     "description": ""
