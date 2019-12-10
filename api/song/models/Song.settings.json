@@ -7,14 +7,16 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
     "comment": ""
   },
   "attributes": {
     "title": {
       "maxLength": 50,
       "required": true,
-      "unique": true,
       "type": "string"
     },
     "lyrics": {
