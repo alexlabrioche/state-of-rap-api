@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "artist",
+  "info": {
+    "name": "artist",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "maxLength": 50,
+      "required": true,
+      "unique": true,
+      "type": "string"
+    },
+    "songs": {
+      "collection": "song",
+      "via": "artist"
+    }
+  }
+}
